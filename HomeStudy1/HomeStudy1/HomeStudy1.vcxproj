@@ -19,7 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="main1.c" />
+    <ClCompile Include="main2.c" />
+    <ClCompile Include="main3.c" />
+    <ClCompile Include="main4.c" />
+    <ClCompile Include="main5.c" />
+    <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
