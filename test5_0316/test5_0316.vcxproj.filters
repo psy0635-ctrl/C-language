@@ -15,32 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="main0328.c">
-=======
-    <ClCompile Include="main5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FileName.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="main1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="main2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="main3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="main4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소스.cpp">
->>>>>>> 0c557d270a6a391cbd9fe97ac8a6edc7d081d047
+    <ClCompile Include="0323main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

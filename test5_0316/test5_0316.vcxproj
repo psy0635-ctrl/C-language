@@ -19,24 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="main0328.c" />
-=======
-    <ClCompile Include="FileName.cpp" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="main1.c" />
-    <ClCompile Include="main2.c" />
-    <ClCompile Include="main3.c" />
-    <ClCompile Include="main4.c" />
-    <ClCompile Include="main5.c" />
-    <ClCompile Include="소스.cpp" />
->>>>>>> 0c557d270a6a391cbd9fe97ac8a6edc7d081d047
+    <ClCompile Include="0323main.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{efd747e2-9494-4aa2-a219-f436ef74b071}</ProjectGuid>
-    <RootNamespace>HomeStudy1</RootNamespace>
+    <ProjectGuid>{8da6067f-4b8c-46dc-89ea-70093c507b03}</ProjectGuid>
+    <RootNamespace>test50316</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

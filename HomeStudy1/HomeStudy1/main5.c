@@ -15,7 +15,10 @@ int main(void)
 	printf("f = d + (int)e의 연산결과는 %.2f입니다.\n", f);
 
 	return 0;
+<<<<<<< HEAD
 
 	
+=======
+>>>>>>> 0c557d270a6a391cbd9fe97ac8a6edc7d081d047
 	
 }
