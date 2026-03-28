@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 int main() {
-    //int n;
+	//int n;
 
-    //printf("n 값 입력: ");
-    //scanf("%d", &n);
+	//printf("n 값 입력: ");
+	//scanf("%d", &n);
 
-    //int count = (n + 1) / 2;
-    //int sum = count * count;
+	//int count = (n + 1) / 2;
+	//int sum = count * count;
 
-    //printf("홀수의 합: %d\n", sum);
+	//printf("홀수의 합: %d\n", sum);
 
-    //return 0;
+	//return 0;
 
 
  //   int n;
@@ -28,7 +28,7 @@ int main() {
 
 	//return 0;
 
-    
+
 	//int n;
 
 	//printf("n의 값을 입력하세요: ");
@@ -120,5 +120,73 @@ int main() {
 
 	//return 0;
 
+	//int n;
 
-}
+	//printf("정수를 입력하세요: ");
+	//scanf("%d", &n);
+
+	//for (int i = 1;i <= n;i++)
+	//{
+	//	if (i % 2 == 0) {				// i가 짝수인지 확인
+	//		printf("%d ", i);			// i가 짝수일 때, 숫자 뒤에 공백을 추가하여 출력
+	//	}
+	//}
+	//	printf("\n");	
+
+	//	if (n % 2 == 0) {				// n이 짝수인지 확인
+	//		printf("%d는 짝수입니다.\n", n); // n이 짝수일 때, 해당 메시지 출력
+	//	}
+	//	else {							// n이 짝수가 아닐 때 (즉, 홀수일 때)
+	//		printf("%d는 홀수입니다.\n", n); // n이 홀수일 때, 해당 메시지 출력
+	//	}
+	//}
+
+	//int n;
+
+	//printf("정수를 입력하세요: ");
+	//scanf("%d", &n);
+
+	//for (int i = 1;i <= n;i++)
+	//{
+	//	if (i % 2 == 1) {					// i가 홀수인지 확인
+	//		printf("%d ", i);			// i가 홀수일 때, 숫자 뒤에 공백을 추가하여 출력
+	//	}
+	//}
+	//printf("\n");
+
+	//if (n % 2 == 1) {
+	//	printf("%d는 홀수입니다.\n", n); // n이 홀수일 때, 해당 메시지 출력
+	//}
+	//else
+	//{
+	//	printf("%d는 짝수입니다.\n", n); // n이 짝수일 때, 해당 메시지 출력
+	//}
+
+	int n;
+
+	printf("정수를 입력하세요: ");
+	scanf("%d", &n);
+
+	for (int i = 1; i <= n; i++)
+	{
+		if (i % 2 == 1) {
+			printf("%d ", i);
+		}
+	}
+		printf("\n");
+
+		if (n > 10)
+		{
+			printf("%d는 10보다 큽니다.\n", n);
+		}
+		else if (n == 10)
+		{
+			printf("%d는 10과 같습니다.\n", n);
+		}
+		else
+		{
+			printf("%d는 10보다 작습니다.\n", n);
+		}
+	}
+
+
