@@ -58,50 +58,65 @@ int main(void)
 	//}
 
 
-	//if문 사용해서 홀수의 합 구하기
-	int n;
-	int sum;
+	////if문 사용해서 홀수의 합 구하기
+	//int n;
+	//int sum;
 
-	printf("정수를 입력하세요 : ");
-	scanf("%d", &n);
+	//printf("정수를 입력하세요 : ");
+	//scanf("%d", &n);
 
-	//짝수면 -1 해서 홀수로 만들기
-	if (n % 2 == 0)
-	{
-		n = n - 1;
+	////짝수면 -1 해서 홀수로 만들기
+	//if (n % 2 == 0)
+	//{
+	//	n = n - 1;
+	//}
+
+	//// 홀수 개수 구하기
+	//int m = (n + 1) / 2;
+
+	////홀수의 합 공식 m * m
+	//sum = m * m;
+
+	//printf("홀수의 합 : %d\n", sum);
+
+	//return 0;
+
+
+
+	//int n;
+	//int sum;
+
+	//printf("정수를 입력하세요 : ");
+	//scanf("%d", &n);
+
+	//if (n % 2!=0)
+	//{
+	//	n = n - 1;
+	//}
+
+	//// 짝수 개수 구하기
+	//int m = n / 2;
+
+	//sum = m * (m + 1);
+
+	//printf("짝수의 합 공식은 %d입니다.\n", sum);
+
+	//	
+	//return 0;
+
+	int num, input;
+
+	printf("숫자를 입력하세요\n");
+	scanf("%d", &input);
+
+	num = input / 2;
+
+	if (input % 2 == 1) {
+		num++;
+		printf("입력한%d홀수의 홀수의 개수는 %d이다.\n", input, num);
 	}
-
-	// 홀수 개수 구하기
-	int m = (n + 1) / 2;
-
-	//홀수의 합 공식 m * m
-	sum = m * m;
-
-	printf("홀수의 합 : %d\n", sum);
-
-	return 0;
-
-
-
-	int n;
-	int sum;
-
-	printf("정수를 입력하세요 : ");
-	scanf("%d", &n);
-
-	if (n % 2!=0)
-	{
-		n = n - 1;
-	}
-
-	// 짝수 개수 구하기
-	int m = n / 2;
-
-	sum = m * (m + 1);
-
-	printf("짝수의 합 공식은 %d입니다.\n", sum);
-
-		
+	else printf("입력한%d짝수의 홀수의 개수는 %d이다.\n", input, num);
+	
 	return 0;
 
 }
