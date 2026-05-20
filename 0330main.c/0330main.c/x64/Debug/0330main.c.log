@@ -1,0 +1,6 @@
+﻿  0330main.c
+C:\study\C-language\0330main.c\0330main.c\0330main.c(123,7): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned char *'입니다.
+      C:\study\C-language\0330main.c\0330main.c\0330main.c(123,7):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
+  0330main.c.vcxproj -> C:\study\C-language\0330main.c\x64\Debug\0330main.c.exe

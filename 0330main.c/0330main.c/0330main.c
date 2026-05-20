@@ -3,30 +3,28 @@
 
 int main(void)
 {	
-	////논리 연산자 &&(AND), ||(OR) 2개 이상 사용하기
-	//int a = 0, b = 1, c = 1;
+	//// 논리 연산자 &&(AND), ||(OR) 2개 이상 사용하기
+	//	int a = 0, b = 1, c = 1;
 
-	//printf("논리 연산 1 && 1 || 0의 결과 : %d\n", 1 && 1 || 0);
-	//printf("논리 연산 1 && 0 || 1의 결과 : %d\n", 1 && 0 || 1);
-	//printf("논리 연산 1 && 0 || 0의 결과 : %d\n", 1 && 0 || 0);
+	//	printf("논리 연산 1 && 1 || 0의 결과 : %d\n", 1 && 1 || 0);
+	//	printf("논리 연산 1 && 0 || 1의 결과 : %d\n", 1 && 0 || 1);
+	//	printf("논리 연산 1 && 0 || 0의 결과 : %d\n", 1 && 0 || 0);
+	//	printf("논리 연산 1 && 0 || 0 && 1의 결과 : %d\n", b && a || a && c);
+	//	printf("논리 연산 <1 && 0> || <0 && 1>의 결과 : %d\n", (b && a) || (a && c));
 
-	//printf("논리 연산 1 && 0 || 0 && 1의 결과 : %d\n", b && a || a && c);
-	//printf("논리 연산 <1 && 0> || <0 && 1>의 결과 : %d\n", (b && a) || (a && c));
-
-	//return 0;
-
+	//	return 0;
 
 	//// 논리 연산자와 관계연산자 함께 사용하기
-	//int a = 0, b = 1, c = 1;
+	//	int a = 0, b = 1, c = 1;
 
-	//printf("a < b && c > a의 결과 : %d\n", a < b && c > a);
-	//printf("a > b && c > a의 결과 : %d\n", a > b && c > a);
-	//printf("a > b || c > a의 결과 : %d\n", a > b || c > a);
+	//	printf("a < b && c > a의 결과 : %d\n", a < b && c > a);
+	//	printf("a > b && c > a의 결과 : %d\n", a > b && c > a);
+	//	printf("a > b || c > a의 결과 : %d\n", a > b || c > a);
 
-	//printf("괄호를 사용하는 것이 더 좋음\n");
-	//printf("(a > b) || (c > a)의 결과 : %d\n", (a > b) || (c > a));
+	//	printf("괄호를 사용하는 것이 더 좋음\n");
+	//	printf("(a > b) || (c > a)의 결과 : %d\n", (a > b) || (c > a));
 
-	//return 0;
+	//	return 0;
 
 	//// 대입 연산자 사용하기
 	//int a, b = 0;
@@ -115,20 +113,24 @@ int main(void)
 // printf("논리 연산 !b의 결과 : %d\n", !b);	// 0
 //
 // return 0;
+	
+//unsigned char lastmask = 1; // 2의 0승 위치 : 00000001
+//unsigned char firstmask = 128; // 2의 7승 위치 : 10000000
+//
+//unsigned char input;
+//
+//printf("값을 입력하시오.\n");
+//scanf("%d", &input);
+//
+//printf("입력한 값 %d의 첫 번째 비트는 %d이다.\n", input, input & firstmask);
+//
+//printf("입력한 값 %d의 마지막 비트는 %d이다.\n", input, input & lastmask);
+//
+//return 0;
 
-unsigned char lastmask = 1; // 2의 0승 위치 : 00000001
-unsigned char firstmask = 128; // 2의 7승 위치 : 10000000
 
-unsigned char input;
 
-printf("값을 입력하시오.\n");
-scanf("%d", &input);
 
-printf("입력한 값 %d의 첫 번째 비트는 %d이다.\n", input, input & firstmask);
-
-printf("입력한 값 %d의 마지막 비트는 %d이다.\n", input, input & lastmask);
-
-return 0;
 	
 }
 	

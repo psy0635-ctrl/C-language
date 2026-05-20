@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\study\\C-language\\test5_0316\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA6067F-4B8C-46DC-89EA-70093C507B03}|test5_0316\\test5_0316.vcxproj|C:\\study\\C-language\\test5_0316\\test5_0316\\0323main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8DA6067F-4B8C-46DC-89EA-70093C507B03}|test5_0316\\test5_0316.vcxproj|solutionrelative:test5_0316\\0323main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "0323main.c",
+              "DocumentMoniker": "C:\\study\\C-language\\test5_0316\\test5_0316\\0323main.c",
+              "RelativeDocumentMoniker": "test5_0316\\0323main.c",
+              "ToolTip": "C:\\study\\C-language\\test5_0316\\test5_0316\\0323main.c",
+              "RelativeToolTip": "test5_0316\\0323main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-23T10:29:52.73Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
