@@ -1,6 +1,21 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     ""
   ],
+=======
+    "",
+    "\\0406main.c",
+    "\\0406main.c\\0406main.c",
+    "\\0413main.c",
+    "\\0413main.c\\0413main.c",
+    "\\0420main.c",
+    "\\0420main.c\\0420main.c",
+    "\\0518main.c",
+    "\\test5_0316",
+    "\\test5_0316\\test5_0316"
+  ],
+  "SelectedNode": "\\0420main.c\\0420main.c\\0420main.c",
+>>>>>>> 3984f0bce539ef952e3f32eb782f6e25ab541f19
   "PreviewInSolutionExplorer": false
 }
